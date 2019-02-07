@@ -23,7 +23,7 @@ module.exports = {
 ```
 4. add a script to package.json, write code below this:
 ```
-"lint": "eslint *.js **/*.js"
+"lint": "eslint src/**/*.js src/**/*.jsx"
 ```
 5. create new file again, for setting up editor config, write code below this:
 ```
